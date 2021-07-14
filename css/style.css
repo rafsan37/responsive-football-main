@@ -156,6 +156,8 @@
 /* ----gallery section----- */
 .gallery-section{
   padding: 7rem 3rem;
+  margin-bottom: 3rem;
+  height: 750px;
 }
 .gallery-section h1{
   margin-bottom: 10px;
@@ -176,6 +178,35 @@
 .gellery-img img:hover{
   transform: scale(1.1);
 }
+/* -----video-section---- */
+.video-section{
+  background: rgb(252, 249, 248);
+}
+.video-section h4{
+  font-size: 34px;
+  margin-left: 3rem;
+  padding-top: 30px;
+}
+.video-section .videos{
+  display: grid;
+  grid-template-columns: repeat(4, 0.1fr);
+
+
+}
+.video-section .video{
+  width: 600px;
+  height: 560px;
+  padding-left: 3rem;
+}
+.video-section .video video{
+  width: 440px;
+  height: 360px;
+  line-height: 26;
+}
+.video-section .video h2{
+  font-size: 24px;
+  width: 470px;
+}
 /* ----footer section---- */
 .footer-content img{
  width: 485px;
@@ -192,7 +223,7 @@
 }
 .social li a{
  padding: 10px;
- color: #969BAB;;
+ color: #969BAB;
 }
 .footer-bottom{
   margin-left: 845px;
@@ -292,8 +323,42 @@
 .footer-bottom p{
   margin-left: 20px;
 }
+.gallery-section{
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  height: 450px;
+}
 .gellery-img img{
   width: 300px;
   height: 290px;
+}
+.video-section .videos{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.video-section h4{
+  font-size: 24px;
+  margin-left: 2rem;
+  padding-top: 20px;
+}
+.video-section .videos{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+
+}
+.video-section .video{
+  width: 300px;
+  height: 290px;
+  padding-left: 2rem;
+}
+.video-section .video video{
+  width: 290px;
+  height: 280px;
+  line-height: 16;
+}
+.video-section .video h2{
+  font-size: 18px;
+  width: 370px;
 }
 }
