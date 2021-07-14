@@ -200,6 +200,10 @@
 }
   /* -----responsive @media quary---- */
   @media only screen and (max-width:688px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
     .header-body{
       width: 100%;
     }
