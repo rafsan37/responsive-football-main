@@ -67,8 +67,9 @@
   font-weight: 700;
   line-height: 100px;
   color: #fff;
-  margin-bottom: 
+  margin-bottom:
 }
+
 .left-col-1 button{
  padding: 24px 68px;
  color: #fff;
@@ -127,9 +128,6 @@
   grid-row-gap: 40px;
   grid-column-gap: 30px;
   margin-left: 10%;
-  margin-top: px;
-
-
 }
 .article-info{
   width: 420px;
@@ -161,10 +159,7 @@
 }
 .gallery-section h1{
   margin-bottom: 10px;
-  font-size: 45px;
-}
-.gellery-img{
- 
+  font-size: 40px;
 }
 .gellery-img img{
   display: block;
@@ -189,7 +184,7 @@
 }
 .video-section .videos{
   display: grid;
-  grid-template-columns: repeat(4, 0.1fr);
+  grid-template-columns: repeat(3, 1fr);
 
 
 }
