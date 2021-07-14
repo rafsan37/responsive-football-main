@@ -201,7 +201,7 @@
   /* -----responsive @media quary---- */
   @media only screen and (max-width:688px){
     .header-body{
-      width: 90%;
+      width: 100%;
     }
     .navber{
       padding-top: 20px;
@@ -229,7 +229,8 @@
     .left-col-1 h1{
       font-size: 26px;
       line-height: 30px;
-      float: left;
+      margin-top: 0px;
+      margin-left: 1px;
     }
     .left-col-1 button{
       font-size: 18px;
